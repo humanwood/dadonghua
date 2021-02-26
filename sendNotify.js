@@ -23,16 +23,16 @@ let QQ_MODE = 'send';
 //此处填你BarkAPP的信息(IP/设备码，例如：https://api.day.app/XXXXXXXX)
 let BARK_PUSH = 'PAT';
 //BARK app推送铃声,铃声列表去APP查看复制填写
-let BARK_SOUND = 'shake';
+let BARK_SOUND = 'BARK_SOUND';
 
 
 // =======================================telegram机器人通知设置区域===========================================
 //此处填你telegram bot 的Token，例如：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
 //(环境变量名 TG_BOT_TOKEN)
-let TG_BOT_TOKEN = '';
+let TG_BOT_TOKEN = 'TG_BOT_TOKEN';
 //此处填你接收通知消息的telegram用户的id，例如：129xxx206
 //(环境变量名 TG_USER_ID)
-let TG_USER_ID = '';
+let TG_USER_ID = 'TG_USER_ID';
 
 // =======================================钉钉机器人通知设置区域===========================================
 //此处填你钉钉 bot 的webhook，例如：5a544165465465645d0f31dca676e7bd07415asdasd
